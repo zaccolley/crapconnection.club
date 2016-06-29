@@ -1,0 +1,22 @@
+body {
+  font-size: 2em;
+  font-family: sans-serif;
+}
+
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 40em;
+}
+
+.offline-notif {
+  color: green;
+
+  transition: color 2s ease-in;
+}
+
+.offline-notif--hidden {
+  color: white;
+
+  visibility: hidden;
+}
